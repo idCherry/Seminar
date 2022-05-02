@@ -1,0 +1,10 @@
+﻿Console.Write("введите первое целое число -> ");
+int a = int.Parse(Console.ReadLine());
+Console.Write("введите второе целое число -> ");
+int b = int.Parse(Console.ReadLine());
+Console.Write("введите третье целое число -> ");
+int c = int.Parse(Console.ReadLine());
+int max = a;
+if (max < b) max = b;
+if (max < c) max = c;
+Console.WriteLine("наибольшее число -> " + max);
